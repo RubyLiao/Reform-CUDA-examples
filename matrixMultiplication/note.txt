@@ -1,0 +1,8 @@
+
+
+Status: 
+1. Proved GPU multiplication is much faster than CPU multiplication
+1. Proved it works when putting all the functions in main.cu
+2. Haven't make the multiple definition rules clear yet
+
+Why is nvcc so sensitive to multiple definition that it doesn't allow including any function in another .cu?

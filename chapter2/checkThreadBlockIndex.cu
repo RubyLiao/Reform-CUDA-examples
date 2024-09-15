@@ -34,7 +34,7 @@ void initializeMatrix(float *A, const int s){
 }
 
 
-int main(){
+int main2(){
     int nx = 10;
     int ny = 6;
     int s = nx * ny;
