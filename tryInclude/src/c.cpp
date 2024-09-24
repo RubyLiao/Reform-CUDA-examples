@@ -1,13 +1,11 @@
 #include "c.hpp"
 
 
-
-
-using namespace std;
+#include <iostream>
 
 
 
 void speakC(int number)
 {
-    cout<< "For c.cpp the number is " << number << endl;
+    std::cout<< "For c.cpp the number is " << number << std::endl;
 }

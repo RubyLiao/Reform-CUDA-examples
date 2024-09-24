@@ -1,15 +1,21 @@
 
+#ifndef B_HPP
+#define B_HPP
+
 #include "b.hpp"
 #include "c.hpp"
 
 
+#include <iostream>
 
-using namespace std;
+
 
 
 void speakB(int number)
 {
-    cout<< "For b.cpp the number is " << number << endl;
-    cout<< "I'm calling speakC in b.cpp:" << endl;
+    std::cout<< "For b.cpp the number is " << number << std::endl;
+    std::cout<< "I'm calling speakC in b.cpp:" << std::endl;
     speakC(3);
 }
+
+#endif
